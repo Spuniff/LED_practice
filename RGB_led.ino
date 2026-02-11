@@ -35,7 +35,7 @@ void loop() {
   blueValue += random(-2,5);
 
 
-  redValue = constrain(redValue, 0, 255);//constrain it no no massive jumps
+  redValue = constrain(redValue, 0, 255);//constrain it so no massive jumps
   greenValue = constrain(greenValue, 0, 255);
   blueValue = constrain(blueValue, 0, 255);
 
